@@ -23,3 +23,39 @@ print(milk_price)
 # prints the dictionary with all its contents.
 print(food_prices)
 
+# creates a list of song with their artists.
+playlist = [
+    "The Weekend - Reminder",
+    "Oliver Tree - Life goes on",
+    "Conan Gray - Maniac",
+    "Post Malone - WoW"
+]
+
+# prints the playlist to check if all the songs show up
+print(playlist)
+
+# prints the first song from my playlist
+first_song = playlist[-4]  # or playlist[0]
+print(first_song)
+
+# accesses the 2nd and 3rd song as favorite songs and prints it.
+fav_songs = playlist[1:3]   # slicing operator
+print(fav_songs)
+
+# changes the last song in the playlist to another song
+playlist[3] = "J Cole - Middle child" 
+
+# adds another song to the playlist and prints the new playlist.
+playlist.append("Lana Del Ray - Love")
+
+print(playlist)
+
+# deletes the last song from the playlist and prints it.
+playlist.pop()
+print(playlist)
+
+# how many songs are in the playlist. = 4
+print(len(playlist))
+
+# sorts the playlist in alphabetical order
+print(sorted(playlist))
